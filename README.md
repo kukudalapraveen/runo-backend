@@ -1,6 +1,6 @@
-git clone <repo>
-npm install
-npm start
+- git clone https://github.com/kukudalapraveen/runo-backend.git
+- npm install
+- npm start
 
 # Custom Analytics Engine
 
