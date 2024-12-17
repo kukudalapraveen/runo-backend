@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "7e7b2353-442f-4493-b868-ccfbcec6c7a9",
+		"name": "runo-ratelimiting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37367191"
+	},
+	"item": [
+		{
+			"name": "rate-limiting",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"endpoint\": \"/api/users\",\r\n    \"method\": \"GET\",\r\n    \"userId\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/logs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"logs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

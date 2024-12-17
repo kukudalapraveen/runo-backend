@@ -35,6 +35,11 @@ The **Custom Analytics Engine** is a backend service built using **Node.js** and
 - Limits requests per user to ensure service stability.
 - Configurable rate limit per minute.
 
+### 5. API Requests Postman Collections:
+
+- API requests for adding a log(POST),analytics of user(GET),analytics summary(GET).
+- Added a new request for testing rate limiting,by running with collection with Run configuration iteration greater than 100.
+
 ---
 
 ## Technology Stack
