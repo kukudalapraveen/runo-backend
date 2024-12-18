@@ -37,8 +37,8 @@ The **Custom Analytics Engine** is a backend service built using **Node.js** and
 
 ### 5. API Requests Postman Collections:
 
-- API requests for adding a log(POST),analytics of user(GET),analytics summary(GET).
-- Added a new request for testing rate limiting,by running with collection with Run configuration iteration greater than 100.
+- Includes API requests for adding a log (POST), retrieving user analytics (GET), and fetching the analytics summary (GET).
+- Added a new request for testing rate limiting by running the collection with the "Run" configuration set to more than 100 iterations.
 
 ---
 
@@ -62,6 +62,6 @@ password: developer@123
 
 MongoDB Atlas URL: https://cloud.mongodb.com/v2/66aa23f6f1fb6258b0055bde
 
-1.Click on browser collections.
-2.select database with name 'runo'.
-3.Next check for collections->logs,archivedLogs.
+- Click on browse collections.
+- select database with name 'runo'.
+- Next check for collections->logs,archivedLogs.

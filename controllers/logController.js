@@ -15,7 +15,7 @@ const createLog = async (req, res) => {
         res.status(201).json({ success: true, data: log });
     } catch (error) {
         console.error("Error creating log:", error.message);
-        res.status(500).json({ message: "Server Error" });
+        res.status(500).json({ message: "Please Use enum values only 'GET', 'POST', 'PUT', 'DELETE' " });
     }
 };
 
